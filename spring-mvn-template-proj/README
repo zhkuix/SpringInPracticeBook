@@ -1,0 +1,11 @@
+Use this project as a bare minimum template from which to start other
+Spring projects using Maven.
+
+This project depends only on spring-context. Add other spring dependencies to
+pom.xml.
+
+The exec-maven-plugin has been added to the pom.xml; use
+
+mvn exec:java
+
+to call the main() entry point in Application.java.
